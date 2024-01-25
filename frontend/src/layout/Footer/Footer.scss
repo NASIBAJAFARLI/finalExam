@@ -1,0 +1,25 @@
+.footer{
+    padding: 100px 300px;
+    text-align: center;
+    p{
+        color: rgb(170, 170, 170);
+    }
+    background-color: rgb(55, 55, 55);
+    &__top{
+        
+        text-align: center;
+        display: flex;
+        &__data{
+            width: 300px;
+           h2{
+            font-weight: 700;
+            color: white;
+           }
+      
+        }
+    }
+    &__bottom{
+        color: rgb(187, 187, 187);
+        margin-top: 50px;
+    }
+}
